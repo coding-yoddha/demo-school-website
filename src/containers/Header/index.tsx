@@ -9,8 +9,8 @@ import {
   FaUser,
   FaEnvelope,
   FaChalkboardTeacher,
-} from "react-icons/fa"; // Import icons from react-icons
-import appLogo from "../../../public/schoollogo.png"; // Ensure this path is correct
+} from "react-icons/fa";
+import appLogo from "../../../public/schoollogo.png";
 
 const styles = {
   headerStyle: {
@@ -38,7 +38,7 @@ const styles = {
     right: 0,
     bottom: 0,
     left: 0,
-    backgroundColor: "rgba(0, 0, 0, 0.7)", // Change to a darker overlay
+    backgroundColor: "rgba(0, 0, 0, 0.7)",
     zIndex: 40,
   },
   sidebarStyle: {
@@ -46,13 +46,13 @@ const styles = {
     top: 0,
     right: 0,
     backgroundColor: "white",
-    color: "#333", // Ensure text color is readable
+    color: "#333",
     width: "256px",
     padding: "24px",
     boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
     height: "100%",
     zIndex: 50,
-    overflowY: "auto", // Allow for scrolling if needed
+    overflowY: "auto",
   },
   mobileToggle: {
     cursor: "pointer",
